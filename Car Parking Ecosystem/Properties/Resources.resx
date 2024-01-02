@@ -1,0 +1,421 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="pngimg.com - bottle_PNG2096" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pngimg.com - bottle_PNG2096.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="00419824c6ac615cf244c10482c1a9d3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\00419824c6ac615cf244c10482c1a9d3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="34338d26023e5515f6cc8969aa027bca2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\34338d26023e5515f6cc8969aa027bca2.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Corona_Extra_beer_bottle_(2019)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Corona_Extra_beer_bottle_(2019).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="34338d26023e5515f6cc8969aa027bca1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\34338d26023e5515f6cc8969aa027bca1.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pngimg.com - fanta_PNG54" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pngimg.com - fanta_PNG54.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="parking" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\parking.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MD. Tanvir Ahmed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MD. Tanvir Ahmed.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="potato-chips-food-snacks-cavinkare-32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\potato-chips-food-snacks-cavinkare-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Car-Parking-Transparent1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Car-Parking-Transparent1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="8f5a16f87e24f6367fc82ec8109a83cb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8f5a16f87e24f6367fc82ec8109a83cb.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2343894" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2343894.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PC-Salted" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PC-Salted.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2395255" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2395255.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="75694-bird's-eye-car-top-view,plan-view-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\75694-bird's-eye-car-top-view,plan-view-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="car-gif-7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\car-gif-7.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pngtree-parking-lot-with-cars-in-it-picture-image_24822781" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pngtree-parking-lot-with-cars-in-it-picture-image_24822781.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20231211_183000" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20231211_183000.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="77043685" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\77043685.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="77043681" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\77043681.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="77043682" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\77043682.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Work-from-home-Animated-GIF-Icon-pack-by-Discover-Template" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Work-from-home-Animated-GIF-Icon-pack-by-Discover-Template.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1288739" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1288739.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3527105-200" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3527105-200.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Blue_Sport_Car_PNG_Clipart-32442" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blue_Sport_Car_PNG_Clipart-32442.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="162140-pic-chips-lays-download-hq" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\162140-pic-chips-lays-download-hq.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3272779" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3272779.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="584180dea6515b1e0ad75a30" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\584180dea6515b1e0ad75a30.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="20231211_182837" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\20231211_182837.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="User-Profile-PNG-Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\User-Profile-PNG-Image.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="graphic-of-person-standing-at-a-parking-meter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\graphic-of-person-standing-at-a-parking-meter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gif-icon-2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gif-icon-2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pngimg.com - welcome_PNG110" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pngimg.com - welcome_PNG110.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="198238-2001" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\198238-2001.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="free-click-icon-1263-thumb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\free-click-icon-1263-thumb.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="images" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pngimg.com - red_bull_PNG29" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pngimg.com - red_bull_PNG29.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="giphy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\giphy.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pepsi-icon-0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pepsi-icon-0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="6-ParkingParallelRecord" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6-ParkingParallelRecord.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2782689" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2782689.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ezgif.com-webp-to-jpg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ezgif.com-webp-to-jpg.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="222" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\222.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="JC,JCZero 406x550 transparent (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\JC,JCZero 406x550 transparent (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="198238-200" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\198238-200.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="20231211_182521" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\20231211_182521.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pngtree-car-parking-sign-design-template-png-image_6612227" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pngtree-car-parking-sign-design-template-png-image_6612227.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="android-11-background-0ikv99bmodtep8sh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\android-11-background-0ikv99bmodtep8sh.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="112-1120979_heineken-beer-bottle-transparent-hd-png-download" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\112-1120979_heineken-beer-bottle-transparent-hd-png-download.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2168423" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2168423.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="source" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\source.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="back-button-icon-png-171" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\back-button-icon-png-171.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3081295" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3081295.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="23438941" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\23438941.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pngtree-parking-lot-with-cars-in-it-picture-image_2482278" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pngtree-parking-lot-with-cars-in-it-picture-image_2482278.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Blue_Sport_Car_PNG_Clipart-32441" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blue_Sport_Car_PNG_Clipart-32441.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="detailed-car-wash-service-concept-illustration_23-2149038677" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\detailed-car-wash-service-concept-illustration_23-2149038677.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="34338d26023e5515f6cc8969aa027bca" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\34338d26023e5515f6cc8969aa027bca.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="parking-concept-illustration_114360-6554" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\parking-concept-illustration_114360-6554.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="purepng.com-sprite-canfood-soda-object-can-drink-beverage-941524621584uyego" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\purepng.com-sprite-canfood-soda-object-can-drink-beverage-941524621584uyego.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="272456" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\272456.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="car-gif-png-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\car-gif-png-11.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="parking-icon-png-12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\parking-icon-png-12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pngtree-car-parking-sign-png-image_6137204" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pngtree-car-parking-sign-png-image_6137204.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="32727791" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\32727791.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="back-button-icon-png-172" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\back-button-icon-png-172.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MyCAR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\car-gif-png-1.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Car Washing" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Car Washing.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Monster_1800X1800_transparent" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Monster_1800X1800_transparent.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="visa-mastercard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\visa-mastercard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Car-Parking-Transparent" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Car-Parking-Transparent.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="77043683" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\77043683.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="455705" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\455705.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="slant-car-roadside-parking-lot-aszg66qyjs9up6x8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\slant-car-roadside-parking-lot-aszg66qyjs9up6x8.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="52-521767_car-graphics-vector-cleaning-wash-download-free-image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\52-521767_car-graphics-vector-cleaning-wash-download-free-image.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="parking-icon-png-121" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\parking-icon-png-121.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Beer-Can-PNG-Photo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Beer-Can-PNG-Photo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Car-Repair-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Car-Repair-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2855960" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2855960.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="32727792" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\32727792.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pngtree-potato-chips-packet-with-floating-png-image_13534827" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pngtree-potato-chips-packet-with-floating-png-image_13534827.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Blue_Sport_Car_PNG_Clipart-3244" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blue_Sport_Car_PNG_Clipart-3244.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bkash-logo-250D6142D9-seeklogo.com" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bkash-logo-250D6142D9-seeklogo.com.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="7704368" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7704368.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="5831566" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5831566.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dribbble_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dribbble_2.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="47yt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\47yt.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Welcome-PNG-Images" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Welcome-PNG-Images.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="77043684" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\77043684.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="77043686" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\77043686.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="back-button-icon-png-17" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\back-button-icon-png-17.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="automatic-car-wash-vector-2219190" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\automatic-car-wash-vector-2219190.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="111" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\111.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="69-690286_city-car-hd-png-download" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\69-690286_city-car-hd-png-download.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="6521996" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6521996.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="10532101" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\10532101.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="5987424" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5987424.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="car-icons" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\car-icons.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1053210" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1053210.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nagad-logo-7A70CCFEE0-seeklogo.com" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nagad-logo-7A70CCFEE0-seeklogo.com.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
